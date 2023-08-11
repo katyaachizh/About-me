@@ -35,8 +35,13 @@ h2 {
     font-size: 2rem;
 }
 
+h3 {
+    font-size: 1.5rem;
+}
+
 img {
     width: 100%;
+    
 }
 
 .text {
@@ -87,7 +92,18 @@ article .text {
 
 .about .text {
     max-width: 500px;
+    margin-right: 10px;
+}
+
+.work {
+    display: flex;
+    justify-content: center;
     margin: 15px auto 0;
+
+}
+
+.work img {
+    width: 200px;
 }
 
 .box {
@@ -129,9 +145,31 @@ footer {
     margin: 10px 0;
 }
 
-footer a {
+.links a {
     display: block;
     font-size: 1.15rem;
     font-weight: 400;
     line-height: 30px;
+    transition: all .4s;
+}
+
+.links a:hover {
+    transform: scale(1.2);
+}
+
+.sotial i {
+    font-size: 1.5rem;
+}
+
+.sotial li {
+    display: inline-block;
+    transition: all .4s;
+}
+
+.sotial li:hover {
+    transform: scale(1.5);
+}
+
+.sotial li:not(:last-child) {
+    margin-right: 10px;
 }
