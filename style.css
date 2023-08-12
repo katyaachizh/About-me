@@ -92,7 +92,7 @@ article .text {
 
 .about .text {
     max-width: 500px;
-    margin-right: 10px;
+    margin: 0 10px;
 }
 
 .work {
@@ -103,7 +103,10 @@ article .text {
 }
 
 .work img {
-    width: 200px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; 
+    overflow: hidden;
 }
 
 .box {
